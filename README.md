@@ -54,7 +54,7 @@
 
 ## 🚀 Saytni ishlatish
 
-1. Saytga kiring: `https://alibekshomurotov.github.io/vikipediya/`
+1. Saytga kiring: https://alibekshomurotov.github.io/vikipediya/
 2. Olimlar ro'yxatidan birini tanlang
 3. Olimning tarjimai holi, kashfiyotlari va mukofotlarini o'qing
 4. Qidiruv orqali kerakli olimni toping
