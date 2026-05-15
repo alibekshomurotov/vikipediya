@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/vikipediya/', // Repository nomingizga moslashtiring!
+  base: './',
   server: {
     port: 3000,
     open: true
@@ -12,7 +12,7 @@ export default defineConfig({
     outDir: 'dist',
     assetsDir: 'assets',
     sourcemap: false,
-    minify: 'terser',
+    minify: 'esbuild', // terser o'rniga esbuild (Vite default)
     rollupOptions: {
       output: {
         manualChunks: {
