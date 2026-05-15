@@ -54,7 +54,7 @@
 
 ## 🚀 Saytni ishlatish
 
-1. Saytga kiring: `https://YOUR_USERNAME.github.io/olimlar-ensiklopediyasi/`
+1. Saytga kiring: `https://alibekshomurotov.github.io/vikipediya/`
 2. Olimlar ro'yxatidan birini tanlang
 3. Olimning tarjimai holi, kashfiyotlari va mukofotlarini o'qing
 4. Qidiruv orqali kerakli olimni toping
@@ -64,8 +64,8 @@
 
 ## 📞 Aloqa
 
-- **Muallif:** [Sizning ismingiz]
-- **GitHub:** [@username](https://github.com/YOUR_USERNAME)
+- **Muallif:** [Alibek]
+- **GitHub:** (https://github.com/alibekshomurotov)
 - **Loyiha manzili:** [GitHub Repository](https://github.com/alibekshomurotov/vikipediya)
 
 ---
