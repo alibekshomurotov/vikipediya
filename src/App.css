@@ -163,3 +163,59 @@ body.dark-mode {
 .fade-in {
   animation: fadeIn 0.5s ease-out;
 }
+/* No results sahifasi */
+.no-results {
+  text-align: center;
+  padding: 80px 20px;
+  background: white;
+  border-radius: 20px;
+  margin-top: 40px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.dark .no-results {
+  background: #1e1e2e;
+  color: white;
+}
+
+.no-results h3 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #667eea;
+}
+
+.no-results p {
+  color: #718096;
+  margin-bottom: 25px;
+}
+
+/* Footer */
+.footer {
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(10px);
+  padding: 20px 0;
+  margin-top: 50px;
+  text-align: center;
+  border-top: 1px solid rgba(255,255,255,0.2);
+}
+
+.footer.dark {
+  background: rgba(0,0,0,0.3);
+}
+
+.footer p {
+  color: white;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .no-results {
+    padding: 50px 15px;
+  }
+  
+  .no-results h3 {
+    font-size: 1.4rem;
+  }
+}

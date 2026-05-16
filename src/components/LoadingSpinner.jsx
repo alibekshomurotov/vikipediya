@@ -24,6 +24,12 @@ const textStyle = {
   fontWeight: '500'
 };
 
+const progressStyle = {
+  marginTop: '15px',
+  color: 'rgba(255,255,255,0.8)',
+  fontSize: '0.9rem'
+};
+
 const keyframes = `
 @keyframes spin {
   0% { transform: rotate(0deg); }
@@ -31,12 +37,20 @@ const keyframes = `
 }
 `;
 
-function LoadingSpinner() {
+function LoadingSpinner({ lang, progress }) {
   return (
     <div style={spinnerContainerStyle}>
       <style>{keyframes}</style>
       <div style={spinnerStyle}></div>
-      <p style={textStyle}>📡 Ma'lumotlar yuklanmoqda...</p>
+      <p style={textStyle}>
+        {lang === 'uz' ? '📡 Ma\'lumotlar yuklanmoqda...' : '📡 Loading data...'}
+      </p>
+      {progress && progress.total > 0 && (
+        <p style={progressStyle}>
+          {progress.current} / {progress.total} 
+          {lang === 'uz' ? ' ta olim yuklandi' : ' scientists loaded'}
+        </p>
+      )}
     </div>
   );
 }
