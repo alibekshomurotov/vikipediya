@@ -70,10 +70,4 @@
 
 ---
 
-## © Litsenziya
-
-MIT litsenziyasi asosida bepul foydalanish mumkin.
-
----
-
 **🔬 Bilim - eng katta boylik!**
